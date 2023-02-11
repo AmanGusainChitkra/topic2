@@ -8,9 +8,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>IoT Applications</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+  <div class="container">
   <h1>Devices</h1>
   <div>
   <table id="devices" class="table">
@@ -23,17 +25,9 @@
     <tbody></tbody>
   </table>
 </div>
-<div>
-  <table id="students" class="table">
-    <thead>
-      <tr>
-        <th>Name</th>
-        <th>Room No.</th>
-      </tr>
-    </thead>
-    <tbody></tbody>
-  </table>
+<div class="center"><button class="btn btn-success" id="register">Register New Device</button></div>
 </div>
+
 <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script src="app.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>

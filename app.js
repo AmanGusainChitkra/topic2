@@ -20,5 +20,13 @@ devices.forEach(function(device) {
     devices.push({ user, name });
     // console.log(devices);
     localStorage.setItem('devices', JSON.stringify(devices));
+    console.log(devices);
+  });
+
+  $('#view-devices').on('click', function(){
     location.href = 'device-list.html';
+  });
+
+  $('#register').on('click', function(){
+    location.href = 'register-device.html';
   });
